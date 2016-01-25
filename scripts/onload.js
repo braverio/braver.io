@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $("div.hidden")
         .css('opacity', 0)
-        .slideDown('slow')
+        .slideDown(1000)
         .animate(
             { opacity: 1 },
-            { queue: false, duration: 'slow' }
+            { queue: false, duration: 1500 }
   );
 });
